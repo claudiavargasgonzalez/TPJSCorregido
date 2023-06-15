@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+
+    <title>Venta Amancay</title>
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark titulo fs-5">
+            <div class="container">
+                <img src="img/Drawing.sketchpad.png" alt="Logo" style="height:60px;">
+                <a class="navbar-brand" href="#">Florería Amancay</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-current="page">Sobre nosotros <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Flores</a>
+                                <a class="dropdown-item" href="#">Regalos</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Buscar">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <p class="titulo h1 text-center text-light m-5 shadow-lg">Promociones en Ramos</p>
+        <div class="card-group m-5 gap-3">
+            <div class="btn card border border-2 bg-transparent rounded" data-index="0">
+              <img src="img/lilium-1-1-1245222.webp" class="card-img-top" alt="card-group-image">
+              <div class="card-body">
+                <span class="badge rounded-pill bg-success mb-2">Flores de corte</span>
+                <h4 class="card-title text-center">Liliums Blancos</h4>
+                <p class="card-text text-center">Ramo de 2 varas de Liliums</p>
+                <p class="badge rounded-pill bg-dark bg-opacity-50">Precio regular:$2600</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Precio promocion 15% descuento</small>
+              </div>
+            </div>
+            <div class="btn card border border-2 bg-transparent rounded" data-index="1">
+              <img src="img/Rosa.webp" class="card-img-top" alt="card-group-image">
+              <div class="card-body">
+                <span class="badge rounded-pill bg-success mb-2">Flores de corte</span>
+                <h4 class="card-title text-center">Rosa Colombiana</h4>
+                <p class="card-text text-center">Ramo de 3 rosas con follaje surtido de acompañamiento</p>
+                <p class="badge rounded-pill bg-dark bg-opacity-50">Precio regular:$2600</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Precio promocion 20% de descuento</small>
+              </div>
+            </div>
+            <div class="btn card border border-2 bg-transparent rounded" data-index="2">
+              <img src="img/tulips-1400882.webp" class="card-img-top" alt="card-group-image">
+              <div class="card-body">
+                <span class="badge rounded-pill bg-success mb-2">Flores de corte</span>
+                <h4 class="card-title text-center">Tulipanes varios colores</h4>
+                <p class="card-text text-center">Ramo de 4 varas de Tulipanes con follaje surtido de acompañamiento</p>
+                <p class="badge rounded-pill bg-dark bg-opacity-50">Precio regular:$2600</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Precio promocion 25% de descuento</small>
+              </div>
+            </div>
+          </div>
+        
+          <p class="fs-3 titulo text-muted text-center shadow-lg my-3 mx-5">Complete el siguiente formulario para realizar la compra</p>
+          <form name="form">
+          <div class="row g-3 mx-5 my-3">
+              <div class="col-sm">
+                <input name="firstname" type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+              </div>
+              <div class="col-sm">
+                <input name="lastname" type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+              </div>
+            </div>
+            <div class="row g-3 mx-5 my-2">
+              <div class="col-sm">
+                <input name="address" type="text" class="form-control" placeholder="Direccion" aria-label="Direccion">
+              </div>
+              <div class="col-sm">
+                <input name="email" type="email" class="form-control" placeholder="@Email" aria-label="Correo electronico">
+              </div>
+              </div>
+             <div class="row mx-5 my-4">
+                  <div class="col-6">   
+                      <input name="bouquetsNumber" id="bouquetsNumber" type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad"> 
+                  </div>
+              
+                  <div class="col-6">
+                      <select name="bouquetSelection" id="bouquetSelection" class="form-select" aria-label="Default select example">
+                          <option selected="" value="none">Elija su ramo</option>
+                          <option value="a">Ramo de Liliums</option>
+                          <option value="b">Ramo de Rosas colombianas</option>
+                          <option value="c">Ramo de Tulipanes</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="row mx-5 my-4">
+                  <div class="col-6">
+                      <label for="total">Total en pesos:</label>
+                      <div id="total" class="bg-dark bg-opacity-25 rounded-1 p-3 my-2"></div>
+                  </div>
+              </div>
+              <div class="row mx-5 my-4">
+                      <div class="col-6">
+                          <button id="reset" class="btn btn-success w-100">Limpiar campos</button>
+                      </div>
+  
+                      <div class="col-6">
+                          <button id="submit" class="btn btn-success w-100">Enviar</button>
+                      </div>
+  
+              </div>
+          </form>
+          <a href="#" class="titulo text-decoration-none fs-4 mx-5 my-4 text-muted">Volver</a>
+
+
+    </main>
+    <footer>
+        <div class="p-4 bg-dark">
+            <a class="elementosfooter" href="#">Contacto</a>
+            <a class="elementosfooter" href="#">Términos y condiciones</a>
+            <a class="elementosfooter" href="#">Preguntas frecuentes</a>
+            <a class="elementosfooter" href="#">Productos</a>
+
+        </div>
+    </footer>
+    
+    <script src="js/dom.js"></script>
+
+
+</body>
+</html>
